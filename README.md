@@ -1,0 +1,109 @@
+# logiccode
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  border:1px maroon;
+}
+                   .link {
+                  background-color: #800080;
+                  padding: 15px;
+                  text-align: left;
+                  font-size: 35px;
+                  border: 1px solid black;
+                  overflow: hidden;
+                   
+                         }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 31%;
+  padding: 10px;
+ margin: 5px;
+border:1px blue;
+overflow: hidden;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #800000;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Header</h2>
+
+              <div class="link" stryle="background-color:#00ff00"> 
+              <h6><a href="#">https://github.com/Versharaj14/MY_ASSIGNMENT/commit/0cfd9809b0530f27969d06984b622b13c957f356#diff-7ba4418fd0f299e3ecd3779ab7ea1b9d</a>
+  </h6>
+              </div>
+           </div>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;"><p>Column
+   this is my ist assignment.
+  this is my ist assignment  this is my ist assignment  this is my ist assignment
+  this is my ist assignment  this is my ist assignment  this is my ist assignment
+  this is my ist assignment  this is my ist assignment</p></div>
+
+  <div class="column" style="background-color:#bbb;"><p>Column
+qazwsxedcrfvtgbyhnujikopllmmjjhuiftydyggyfghfc
+  this is my ist assignment  this is my ist assignment
+v  this is my ist assignment
+  this is my ist assignment  this is my ist assignment
+ghdgdffdfghfklhikcfguiegfiufhruieyh</p>
+</div>
+
+  <div class="column" style="background-color:#ccc;"><P>Column   
+v  this is my ist assignment
+jhbjhgjhfyfhgvjhvhfhgfyhgjhvvcdegwfuejom,klm,lo
+  this is my ist assignment
+  this is my ist assignment
+piujnmhywqwerdtvghbjhnscvbnm,erthjksdfgbnscvbtgujk,jmyhngdcrfg</p>
+</div>
+
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>
